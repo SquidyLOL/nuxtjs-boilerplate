@@ -1,0 +1,40 @@
+{
+  "name": "nuxtjs-boilerplate",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "app",
+    "packages",
+    "packages/config/root-template"
+  ],
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "prisma generate && nuxt build",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint . --debug",
+    "lint:fix": "eslint . --debug --fix",
+    "create-app": "node packages/index.js -n .nuxt-app-test",
+    "destroy-app": "rimraf  .nuxt-app-test"
+  },
+  "dependencies": {
+    "@nuxt/icon": "1.15.0",
+    "@nuxtjs/color-mode": "3.5.2",
+    "@nuxtjs/google-fonts": "3.2.0",
+    "@nuxtjs/tailwindcss": "6.14.0",
+    "@vercel/analytics": "1.5.0",
+    "nuxt": "4.0.2"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "5.0.0",
+    "@nuxt/devtools": "2.6.2",
+    "@types/eslint-plugin-tailwindcss": "3.17.0",
+    "@types/node": "24.1.0",
+    "@typescript-eslint/parser": "8.38.0",
+    "eslint": "9.32.0",
+    "eslint-plugin-format": "1.0.1",
+    "eslint-plugin-tailwindcss": "4.0.0-beta.0",
+    "rimraf": "6.0.1",
+    "typescript": "5.8.3"
+  }
+}
